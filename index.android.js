@@ -51,3 +51,15 @@ const styles = StyleSheet.create({
 });
 
 AppRegistry.registerComponent('TestRN', () => TestRN);
+
+function handleHardwareBackPress(router) {
+  // Pop currently active stack
+  const didPop = router.pop();
+
+  if (didPop) {
+    return true;
+  } else {
+    // App should exit
+    return false;
+  }
+}

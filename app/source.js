@@ -24,11 +24,11 @@ module.exports = {
     },
 
     "QuQu": {
-        "url": "https://imququ.com/archives.html",
-        "column": ".day",
-        "href" : ".postTitle a",
-        "title": ".postTitle a",
-        "time": ".dayTitle"
+        "url": "https://imququ.com/",
+        "column": ".post-list",
+        "href" : ".title a",
+        "title": ".title a",
+        "time": ".meta .date time"
     },
 
     "阮一峰": {
@@ -82,8 +82,8 @@ module.exports = {
     "Taobao FED": {
         "url": "http://taobaofed.org/",
         "column": ".article-summary",
-        "href" : ".article-summary-inner a",
-        "title": ".article-summary-inner a",
+        "href" : ".article-title a",
+        "title": ".article-title a",
         "time": ".time"
     },
 
